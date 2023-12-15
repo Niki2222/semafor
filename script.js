@@ -1,5 +1,6 @@
 let countColors = 0;
 let myButton = document.getElementById('initial-button');
+
 function changeColour() {
     ++countColors;
     if (countColors % 3 == 0) {
@@ -10,3 +11,5 @@ function changeColour() {
         myButton.style.backgroundColor = 'green';;
     }
 }
+
+setInterval(changeColour, 1000);
