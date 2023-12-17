@@ -12,4 +12,4 @@ function changeColour() {
     }
 }
 
-setInterval(changeColour, 1000);
+window.setInterval(changeColour, 10000);
